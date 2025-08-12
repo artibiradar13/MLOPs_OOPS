@@ -1,3 +1,14 @@
 1. Class and object
 2.class has data/attribute and func/methods
 
+3. why pyhton is called object oriented 
+4. Advantages of oops:
+  > you can create your own datatyppe
+  > code reausability
+  > debugging
+  > easy to collab
+
+5. end to end Project(CHAtbook class)
+  > Encapsulation
+  > getter and setter
+  > static method
