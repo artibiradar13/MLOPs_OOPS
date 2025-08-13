@@ -1,3 +1,4 @@
+OOPS TOPICS------
 1. Class and object
 2.class has data/attribute and func/methods
 
@@ -9,6 +10,27 @@
   > easy to collab
 
 5. end to end Project(CHAtbook class)
-  > Encapsulation
-  > getter and setter
-  > static method
+  > Encapsulation (__attribute)
+  > getter and setter(They are methods to access (getter) and
+                       modify (setter) private attributes safely, )
+  > static method(A method that belongs to a class but doesn’t use instance or class variables.
+                 It behaves like a regular function but lives inside the class namespace.)
+    class Math:
+    @staticmethod
+    def add(x, y):
+        return x + y
+
+    print(Math.add(5, 3))  # 8
+
+     m = Math()
+    print(m.add(10, 20))   # 30
+
+  > Inheritance
+    >Inheritance allows a class (child/subclass) to inherit attributes
+     and methods from another class (parent/superclass). 
+     This helps reuse code and create a hierarchical relationship between classes.
+
+  >Polymorphism
+    Polymorphism means "many forms" — the same function or 
+    method name can work in different ways depending on the object calling it.
+    
